@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- support arabic -->
+    <meta charset="utf-8" />
+    <!-- phone view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--style css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--fontawsome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">portfo<span style="color: #f9320b">lio</span></div>
+
+      <div class="nav-list">
+        <ul>
+          <li class="nav-li"><a href="#header" class="nav-link">Home</a></li>
+          <li class="nav-li"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-li"><a href="#portfolio" class="nav-link">portfolio</a></li>
+          <li class="nav-li"><a href="#services" class="nav-link">Service</a></li>
+          <li class="nav-li"><a href="" class="nav-link">Blog</a></li>
+          <li class="nav-li"><a href="#contact-us" class="nav-link">Contact</a></li>
+          <li class="nav-li">
+            <input type="search" class="search hidden" />
+
+            <i class="fas fa-search nav-link" id="search-icon"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="drop-down">
+        <button onclick="func()"><i class="fas fa-caret-down"></i></button>
+        <div class="drop-down-list hidden">
+          <ul class="dropdown-ul">
+            <li class="nav-li"><a href="#header" class="nav-link">Home</a></li>
+            <li class="nav-li"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-li"><a href="#portfolio" class="nav-link">portfolio</a></li>
+            <li class="nav-li"><a href="#services" class="nav-link">Service</a></li>
+            <li class="nav-li"><a href="" class="nav-link">Blog</a></li>
+            <li class="nav-li"><a href="#contact-us" class="nav-link">Contact</a></li>
+            
+          </ul>
+      </div>
+    </nav>
+    <section class="head-section" id="header">
+      <div class="photo">
+        <img src="cover.png" />
+      </div>
+      <div class="info">
+        <p>Hi There!</p>
+        <h1 class="color">I am John Smith</h1>
+        <p id="summry">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          quae cum, fugit cumque dignissimos reiciendis officiis, tenetur
+          blanditiis architecto delectus fugiat
+        </p>
+        <div class="cv">
+          <button id="cv-btn" class="btn">Download CV</button>
+          <button id="get-btn" class="btn">Get in touch</button>
+        </div>
+      </div>
+    </section>
+    <section class="about-me" id="about">
+      <div class="pic"><img src="aboutphoto.jpeg" /></div>
+      <div class="about">
+        <p>About Me</p>
+        <h3>Lets Introduce Something About Me</h3>
+        <p id="about-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni
+          omnis doloremque accusamus a. Accusamus natus placeat nam, veritatis
+          voluptatibus delectus nisi. Qui quae, veniam aspernatur eligendi
+          expedita nemo deleniti.
+        </p>
+        <br />
+        <p id="about-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni
+          omnis doloremque accusamus a. Accusamus natus placeat nam, veritatis
+          voluptatibus delectus nisi. Qui quae, veniam aspernatur eligendi
+          expedita nemo deleniti.
+        </p>
+        <div class="cv">
+          <button id="cv-btn" class="btn">Download CV</button>
+          <button id="get-btn" class="btn">Get in touch</button>
+        </div>
+      </div>
+    </section>
+    <section class="service-section" id="services">
+      <div class="serv-title">
+        <p>My Services</p>
+        <h3>My Awesome Services</h3>
+        <p>
+          there are many variations of passages of Lorem Ipsum avaliable, Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          necessitatibus enim iure saepe ducimus, quis modi doloribus unde illum
+          voluptatem.
+        </p>
+      </div>
+      <div class="services-container">
+        <div class="serv">
+          <div class="icon-serv"><img src="icon-photos/design.png" /></div>
+          <h4>Website Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            hic eum ex deserunt iste quia quaerat vero quae totam assumenda
+            laborum, eaque omnis mollitia accusantium laboriosam magnam rerum
+            voluptate temporibus!
+          </p>
+        </div>
+
+        <div class="serv">
+          <div class="icon-serv"><img src="icon-photos/ser2.png" /></div>
+          <h4>Graphic Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            hic eum ex deserunt iste quia quaerat vero quae totam assumenda
+            laborum, eaque omnis mollitia accusantium laboriosam magnam rerum
+            voluptate temporibus!
+          </p>
+        </div>
+
+        <div class="serv">
+          <div class="icon-serv"><img src="icon-photos/ser3.png" /></div>
+          <h4>Web Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            hic eum ex deserunt iste quia quaerat vero quae totam assumenda
+            laborum, eaque omnis mollitia accusantium laboriosam magnam rerum
+            voluptate temporibus!
+          </p>
+        </div>
+
+        <div class="serv">
+          <div class="icon-serv"><img src="icon-photos/ser4.png" /></div>
+          <h4>Brand Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            hic eum ex deserunt iste quia quaerat vero quae totam assumenda
+            laborum, eaque omnis mollitia accusantium laboriosam magnam rerum
+            voluptate temporibus!
+          </p>
+        </div>
+
+        <div class="serv">
+          <div class="icon-serv"><img src="icon-photos/ser5.png" /></div>
+          <h4>Marketing Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            hic eum ex deserunt iste quia quaerat vero quae totam assumenda
+            laborum, eaque omnis mollitia accusantium laboriosam magnam rerum
+            voluptate temporibus!
+          </p>
+        </div>
+
+        <div class="serv">
+          <div class="icon-serv"><img src="icon-photos/ser6.png" /></div>
+          <h4>Digital Marketing</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            hic eum ex deserunt iste quia quaerat vero quae totam assumenda
+            laborum, eaque omnis mollitia accusantium laboriosam magnam rerum
+            voluptate temporibus!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="portfolio">
+      <div class="serv-title">
+        <p>Latest Work</p>
+        <h3>Recent Project Portfolio</h3>
+        <p>
+          there are many variations of passages of Lorem Ipsum avaliable, Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          necessitatibus enim iure saepe ducimus
+        </p>
+      </div>
+      <div class="projects-container">
+        <div class="pro1"><img src="projects/pic5.jpeg" width="100%" height="100%"></div>
+        <div class="pro2"><img src="projects/pic2.jpeg" width="100%" height="100%"></div>
+        <div class="pro3"><img src="projects/pic3.jpeg" width="100%" height="100%"></div>
+        <div class="pro4"><img src="projects/pic4.jpeg" width="100%" height="100%"></div>
+        <div class="pro5"><img src="projects/pic1.jpeg" width="100%" height="100%"></div>
+        <div class="pro6"><img src="projects/pic6.jpeg" width="100%" height="100%"></div>
+      </div>
+    </section>
+    <section class="review">
+      <div class="serv-title">
+        <p>Client Review</p>
+        <h3>What Customer Say</h3>
+        <p>
+          there are many variations of passages of Lorem Ipsum avaliable, Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          necessitatibus enim iure saepe ducimus, Aspernatur necessitatibus enim
+          iure saepe ducimus
+        </p>
+      </div>
+      <div class="customers">
+        <div class="cust">
+          <div class="picture"><img src="aboutphoto.jpeg" /></div>
+          <h3>Mr. Jonathon Doe</h3>
+          <p>Graphic Designer</p>
+          <p>
+            there are many variations of passages of Lorem Ipsum avaliable,
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+            necessitatibus enim iure saepe ducimus, Aspernatur necessitatibus
+            enim iure saepe ducimus
+          </p>
+        </div>
+        <div class="cust">
+          <div class="picture"><img src="aboutphoto.jpeg" /></div>
+          <h3>Micheal John Smith</h3>
+          <p>Graphic Designer</p>
+          <p>
+            there are many variations of passages of Lorem Ipsum avaliable,
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+            necessitatibus enim iure saepe ducimus, Aspernatur necessitatibus
+            enim iure saepe ducimus
+          </p>
+        </div>
+      </div>
+    </section>
+    <section classs="contact" id="contact-us">
+      <div class="serv-title">
+        <p>Get In Touch</p>
+        <h3>What Customer Say</h3>
+        <p>
+          there are many variations of passages of Lorem Ipsum avaliable, Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          necessitatibus enim iure saepe ducimus, Aspernatur necessitatibus enim
+          iure saepe ducimus
+        </p>
+      </div>
+
+      <form>
+        <div class="form">
+          <input
+            type="text"
+            placeholder="First Name"
+            id="fname"
+            class="form-in"
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            id="lname"
+            class="form-in"
+          />
+          <input
+            type="email"
+            placeholder="Email Adress"
+            id="mail"
+            class="form-in"
+          />
+          <input
+            type="text"
+            placeholder="Subject"
+            id="subject"
+            class="form-in"
+          />
+        </div>
+        <textarea
+          type="text"
+          id="message"
+          cols="3"
+          rows="3"
+          class="form-in"
+          placeholder="Message"
+        ></textarea>
+
+        <input type="submit" value="Submit Now" id="btn submit-btn" />
+      </form>
+    </section>
+    <footer>
+      <div class="col-1">
+        <h3>Logo</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+          laboriosam est magni quam velit minus illum molestias reprehenderit
+          vitae impedit saepe exercitationem explicabo error laudantium atque
+          fugit quidem. Aperiam, vero.
+        </p>
+      </div>
+      <div class="col-2">
+        <h3>About Us</h3>
+        <ul class="about-list">
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              >My Portfolio <i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              >Team <i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              >My Services <i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              >Plan & Price <i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              >Contact Me <i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-3">
+        <h3>Quick Link</h3>
+        <ul class="about-list">
+          <li class="nav-li">
+            <a href="" class="nav-link">Privacy Policy</a>
+          </li>
+          <li class="nav-li"><a href="" class="nav-link">Expert Team</a></li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              >Support <i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
+          <li class="nav-li"><a href="" class="nav-link">Help Center</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h3>Follow Me</h3>
+        <ul class="about-list">
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              ><i class="fab fa-twitter"></i>Twitter</a
+            >
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              ><i class="fab fa-instagram"></i>Instagram</a
+            >
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              ><i class="fab fa-dribbble"></i>Dribble</a
+            >
+          </li>
+          <li class="nav-li">
+            <a href="" class="nav-link"
+              ><i class="fab fa-linkedin-in"></i> Linkedin</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="Main.js"></script>
+  </body>
+</html>
